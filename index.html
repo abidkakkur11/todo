@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/48291d9a75.js" crossorigin="anonymous"></script>
+    <TItle>TO DO LIST</TItle>
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+    <p>Hit enter for adding to list & Shift key for clear all.</p>
+    <div class="container">
+        <div class="box-styling" ><button class="clear-all-button" onclick="removeall()" id="clear" style="font-size:1vw"> Clear All</button></div>
+        <input type="text" id="txt1" class="textbox" placeholder="Add your task..!"  onfocus="this.value=''">
+        <button id="add" onclick="buttoncode()" class="button-add">+</button>
+        <div>
+        <ul id="div1">
+        </ul></div>
+    </div>
+    <script src="script.js"></script>
+</body>
