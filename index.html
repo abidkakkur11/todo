@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <TItle>TO DO LIST</TItle>
+</head>
+<body>
+    <h1>TO DO LIST</h1>
+    <p>Click on the task to mark as done</p>
+    <p>Hit Enter for Adding to list</p>
+    <div class="container">
+        <div class="d3"><button class="b1" onclick="removeall()" id="clear"> Clear All</button></div>
+        <input type="text" id="txt1" class="textbox" placeholder="Add your task..!"  onfocus="this.value=''">
+        <button id="add" onclick="buttoncode()">+</button>
+        <div id="div1">
+        </div>
+    </div>
+    <script src="r.js"></script>
+</body>
